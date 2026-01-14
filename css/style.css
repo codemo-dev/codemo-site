@@ -5,7 +5,7 @@
     --text-color: #777;
     --transparent-color: #19c9fab0;
     --section-padding: 100px;
-}
+} 
 /* end variables */
 /* start Global Rules */
 * {
@@ -132,17 +132,17 @@ ul {
     .header nav .toggle-menu {
         display: flex;
     }
-    .header nav .toggle-menu + ul {
+    .header nav ul {
         display: none;
     }
-    .header nav .toggle-menu:hover + ul {
-        display: flex;
+    .header nav .show {
+        display: flex !important;
         flex-direction: column;
         position: absolute;
         top: 100px;
         left: 0;
         width: 100%;
-        z-index: 999;
+        z-index: 1000;
         background-color: black;
     }
     .header nav ul li {

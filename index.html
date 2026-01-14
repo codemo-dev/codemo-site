@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head> 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CodeMo Dev</title>
@@ -23,8 +23,8 @@
                     <h1>CodeMo</h1>
                 </div>
                 <nav>
-                    <i class="fas fa-bars toggle-menu"></i>
-                    <ul>
+                    <i id="menu-icon" class="fas fa-bars toggle-menu"></i>
+                    <ul id="menu">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#services">Services</a></li>
@@ -242,21 +242,6 @@
                     <!-- project number four -->
                     <div class="pro">
                         <div class="image">
-                            <img src="photo/project4.jpeg" alt="">
-                        </div>
-                        <div class="text">
-                            <h2>Groovix</h2>
-                            <p>
-                                Groovix is a Music Blog and it's a Training Project
-                            </p>
-                            <h5>The Techniques Used :</h5>
-                            <p>HTML, CSS</p>
-                            <p>The Site is Not Ready</p>
-                        </div>
-                    </div>
-                    <!-- project number five -->
-                    <div class="pro">
-                        <div class="image">
                             <img src="photo/project5.jpeg" alt="">
                         </div>
                         <div class="text">
@@ -269,6 +254,21 @@
                             <p>It's not Uploaded to a Browser</p>
                         </div>
                     </div>
+                    <!-- project number five -->
+                    <div class="pro">
+                        <div class="image">
+                            <img src="photo/project4.jpeg" alt="">
+                        </div>
+                        <div class="text">
+                            <h2>JavaScript Calculator</h2>ِ
+                            <p>
+                                Calculator project for training on the basics of Java Script
+                            </p>
+                            <h5>The Techniques Used :</h5>
+                            <p>HTML, CSS, JS(DOM)</p>
+                            <a href="https://codemo-dev.github.io/js-dom-calculator/">View</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -277,9 +277,6 @@
         <div class="about" id="about">
             <div class="main-heading">
                 <h2>About</h2>
-            </div>
-            <div class="image">
-                <img src="photo/about.jpg" alt="">
             </div>
             <div class="text">
                 <p>
@@ -307,7 +304,13 @@
                             <span>codemo.devx@gmail.com</span>
                         </div>
                     </a>
-                    <a href="https://wa.me/966548267545?text=عايز%20اعرف &20اكثر%20عن%20الخدمات%20الي%20بتقدمها" class="card">
+                    <a href="mailto:mohamed.eshagx@gmail.com" class="card">
+                        <div class="card">
+                            <i class="fas fa-envelope"></i>
+                            <span>mohamed.eshagx@gmail.com</span>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/966548267545?text= عايز%20اعرف &20اكثر%20عن%20الخدمات%20الي%20بتقدمها" class="card">
                         <div class="card">
                             <i class="fab fa-whatsapp-square"></i>
                             <span>Text Me via WhatsApp</span>
@@ -316,9 +319,13 @@
                 </div>
                 <div class="social">
                     Find Me on Social Networks <br>
-                    <a href="https://www.tiktok.com/@codemo_x" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.tiktok.com/@codemo.devx" target="_blank"><i class="fab fa-tiktok"></i></a>
                     <a href="https://t.me/codemo_x" target="_blank"><i class="fab fa-telegram"></i></a>
-                    <a href="https://github.com/codemo-x" target="_blank"><i class="fab fa-github-square"></i></a>
+                    <a href="https://github.com/codemo-dev" target="_blank"><i class="fab fa-github-square"></i></a>
+                    <a href="https://www.linkedin.com/in/codemo-dev" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/codemo_dev" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/codemo.devx" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.facebook.com/share/17yUXx9bWo/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-square"></i></a>
                 </div>
             </div>
         </div>
@@ -328,5 +335,6 @@
             &copy; 2025 <span>CodeMo</span>.Dev All Right Reserved
         </div>
         <!-- end footer -->
+         <script src="main.js"></script>
     </body>
 </html>
